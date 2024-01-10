@@ -11,7 +11,7 @@ for (let i = 0; i < 800; i++) {
     const randomColor = getRandomColor();
     square.style.backgroundColor = randomColor;
     setTimeout(() => {
-      square.style.backgroundColor = '#ccc'; // Set back to default color after 1 second
+      square.style.backgroundColor = 'rgb(29, 29, 29)'; // Set back to default color after 1 second
     }, 1000);
   });
 }
