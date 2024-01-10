@@ -4,6 +4,7 @@
     grid-template-columns: repeat(40, 1fr);
     grid-gap: 1px;
     width: 800px;
+	background-color:black;
   }
   
   .square {
